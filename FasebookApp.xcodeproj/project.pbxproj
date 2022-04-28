@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		893D5C76281A1D1900E16F45 /* FasebookAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D5C75281A1D1900E16F45 /* FasebookAppApp.swift */; };
+		893D5C7A281A1D1B00E16F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893D5C79281A1D1B00E16F45 /* Assets.xcassets */; };
+		893D5C7D281A1D1B00E16F45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893D5C7C281A1D1B00E16F45 /* Preview Assets.xcassets */; };
+		893D5C7F281A1D1B00E16F45 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D5C7E281A1D1B00E16F45 /* Persistence.swift */; };
+		893D5C82281A1D1B00E16F45 /* FasebookApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 893D5C80281A1D1B00E16F45 /* FasebookApp.xcdatamodeld */; };
+		893D5C8E281A1DA400E16F45 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D5C8D281A1DA400E16F45 /* HomeScreen.swift */; };
+		893D5C91281A231900E16F45 /* ItemProfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D5C90281A231900E16F45 /* ItemProfil.swift */; };
+		893D5C94281A24AD00E16F45 /* ItemAddProfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D5C93281A24AD00E16F45 /* ItemAddProfil.swift */; };
+		893D5C97281A271100E16F45 /* ItemStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D5C96281A271100E16F45 /* ItemStory.swift */; };
+		893D5C9A281A298500E16F45 /* ItemAddStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D5C99281A298500E16F45 /* ItemAddStory.swift */; };
+		893D5C9C281A386E00E16F45 /* ItemPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D5C9B281A386E00E16F45 /* ItemPost.swift */; };
+		893D5CA0281A437F00E16F45 /* ItemNewPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D5C9F281A437F00E16F45 /* ItemNewPost.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		893D5C72281A1D1900E16F45 /* FasebookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FasebookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		893D5C75281A1D1900E16F45 /* FasebookAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FasebookAppApp.swift; sourceTree = "<group>"; };
+		893D5C79281A1D1B00E16F45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		893D5C7C281A1D1B00E16F45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		893D5C7E281A1D1B00E16F45 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		893D5C81281A1D1B00E16F45 /* FasebookApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FasebookApp.xcdatamodel; sourceTree = "<group>"; };
+		893D5C8D281A1DA400E16F45 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		893D5C90281A231900E16F45 /* ItemProfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemProfil.swift; sourceTree = "<group>"; };
+		893D5C93281A24AD00E16F45 /* ItemAddProfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemAddProfil.swift; sourceTree = "<group>"; };
+		893D5C96281A271100E16F45 /* ItemStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStory.swift; sourceTree = "<group>"; };
+		893D5C99281A298500E16F45 /* ItemAddStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemAddStory.swift; sourceTree = "<group>"; };
+		893D5C9B281A386E00E16F45 /* ItemPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPost.swift; sourceTree = "<group>"; };
+		893D5C9F281A437F00E16F45 /* ItemNewPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemNewPost.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		893D5C6F281A1D1900E16F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		893D5C69281A1D1900E16F45 = {
+			isa = PBXGroup;
+			children = (
+				893D5C74281A1D1900E16F45 /* FasebookApp */,
+				893D5C73281A1D1900E16F45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		893D5C73281A1D1900E16F45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				893D5C72281A1D1900E16F45 /* FasebookApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		893D5C74281A1D1900E16F45 /* FasebookApp */ = {
+			isa = PBXGroup;
+			children = (
+				893D5C8B281A1D5500E16F45 /* item */,
+				893D5C8A281A1D4E00E16F45 /* controller */,
+				893D5C75281A1D1900E16F45 /* FasebookAppApp.swift */,
+				893D5C7E281A1D1B00E16F45 /* Persistence.swift */,
+				893D5C80281A1D1B00E16F45 /* FasebookApp.xcdatamodeld */,
+				893D5C89281A1D4900E16F45 /* appUtil */,
+				893D5C7B281A1D1B00E16F45 /* Preview Content */,
+			);
+			path = FasebookApp;
+			sourceTree = "<group>";
+		};
+		893D5C7B281A1D1B00E16F45 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				893D5C7C281A1D1B00E16F45 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		893D5C89281A1D4900E16F45 /* appUtil */ = {
+			isa = PBXGroup;
+			children = (
+				893D5C79281A1D1B00E16F45 /* Assets.xcassets */,
+			);
+			path = appUtil;
+			sourceTree = "<group>";
+		};
+		893D5C8A281A1D4E00E16F45 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				893D5C8C281A1D9400E16F45 /* home */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		893D5C8B281A1D5500E16F45 /* item */ = {
+			isa = PBXGroup;
+			children = (
+				893D5C9E281A436F00E16F45 /* newPost */,
+				893D5C9D281A38F800E16F45 /* post */,
+				893D5C98281A294B00E16F45 /* addStory */,
+				893D5C95281A26E500E16F45 /* story */,
+				893D5C92281A249700E16F45 /* addProfil */,
+				893D5C8F281A230800E16F45 /* profil */,
+			);
+			path = item;
+			sourceTree = "<group>";
+		};
+		893D5C8C281A1D9400E16F45 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				893D5C8D281A1DA400E16F45 /* HomeScreen.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		893D5C8F281A230800E16F45 /* profil */ = {
+			isa = PBXGroup;
+			children = (
+				893D5C90281A231900E16F45 /* ItemProfil.swift */,
+			);
+			path = profil;
+			sourceTree = "<group>";
+		};
+		893D5C92281A249700E16F45 /* addProfil */ = {
+			isa = PBXGroup;
+			children = (
+				893D5C93281A24AD00E16F45 /* ItemAddProfil.swift */,
+			);
+			path = addProfil;
+			sourceTree = "<group>";
+		};
+		893D5C95281A26E500E16F45 /* story */ = {
+			isa = PBXGroup;
+			children = (
+				893D5C96281A271100E16F45 /* ItemStory.swift */,
+			);
+			path = story;
+			sourceTree = "<group>";
+		};
+		893D5C98281A294B00E16F45 /* addStory */ = {
+			isa = PBXGroup;
+			children = (
+				893D5C99281A298500E16F45 /* ItemAddStory.swift */,
+			);
+			path = addStory;
+			sourceTree = "<group>";
+		};
+		893D5C9D281A38F800E16F45 /* post */ = {
+			isa = PBXGroup;
+			children = (
+				893D5C9B281A386E00E16F45 /* ItemPost.swift */,
+			);
+			path = post;
+			sourceTree = "<group>";
+		};
+		893D5C9E281A436F00E16F45 /* newPost */ = {
+			isa = PBXGroup;
+			children = (
+				893D5C9F281A437F00E16F45 /* ItemNewPost.swift */,
+			);
+			path = newPost;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		893D5C71281A1D1900E16F45 /* FasebookApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893D5C85281A1D1B00E16F45 /* Build configuration list for PBXNativeTarget "FasebookApp" */;
+			buildPhases = (
+				893D5C6E281A1D1900E16F45 /* Sources */,
+				893D5C6F281A1D1900E16F45 /* Frameworks */,
+				893D5C70281A1D1900E16F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FasebookApp;
+			productName = FasebookApp;
+			productReference = 893D5C72281A1D1900E16F45 /* FasebookApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		893D5C6A281A1D1900E16F45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					893D5C71281A1D1900E16F45 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 893D5C6D281A1D1900E16F45 /* Build configuration list for PBXProject "FasebookApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 893D5C69281A1D1900E16F45;
+			productRefGroup = 893D5C73281A1D1900E16F45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				893D5C71281A1D1900E16F45 /* FasebookApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		893D5C70281A1D1900E16F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893D5C7D281A1D1B00E16F45 /* Preview Assets.xcassets in Resources */,
+				893D5C7A281A1D1B00E16F45 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		893D5C6E281A1D1900E16F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893D5C94281A24AD00E16F45 /* ItemAddProfil.swift in Sources */,
+				893D5C8E281A1DA400E16F45 /* HomeScreen.swift in Sources */,
+				893D5C9C281A386E00E16F45 /* ItemPost.swift in Sources */,
+				893D5C91281A231900E16F45 /* ItemProfil.swift in Sources */,
+				893D5C7F281A1D1B00E16F45 /* Persistence.swift in Sources */,
+				893D5C97281A271100E16F45 /* ItemStory.swift in Sources */,
+				893D5C76281A1D1900E16F45 /* FasebookAppApp.swift in Sources */,
+				893D5C9A281A298500E16F45 /* ItemAddStory.swift in Sources */,
+				893D5C82281A1D1B00E16F45 /* FasebookApp.xcdatamodeld in Sources */,
+				893D5CA0281A437F00E16F45 /* ItemNewPost.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		893D5C83281A1D1B00E16F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		893D5C84281A1D1B00E16F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		893D5C86281A1D1B00E16F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FasebookApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.FasebookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		893D5C87281A1D1B00E16F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FasebookApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.FasebookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		893D5C6D281A1D1900E16F45 /* Build configuration list for PBXProject "FasebookApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893D5C83281A1D1B00E16F45 /* Debug */,
+				893D5C84281A1D1B00E16F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893D5C85281A1D1B00E16F45 /* Build configuration list for PBXNativeTarget "FasebookApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893D5C86281A1D1B00E16F45 /* Debug */,
+				893D5C87281A1D1B00E16F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		893D5C80281A1D1B00E16F45 /* FasebookApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				893D5C81281A1D1B00E16F45 /* FasebookApp.xcdatamodel */,
+			);
+			currentVersion = 893D5C81281A1D1B00E16F45 /* FasebookApp.xcdatamodel */;
+			path = FasebookApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 893D5C6A281A1D1900E16F45 /* Project object */;
+}
